@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+<div style="position:absolute; color:white; text-align:center; padding-top:110px; padding-left:345px; text-shadow: 2px 2px #ff0000;font-size:35px;letter-spacing: 3px;"><b>Your Mobile Your Choice | eMobile</b></div>
+<a href="index.html"><img src="header.jpg" style="margin-left:145px;width: 980px; border-radius:10px;border-style: solid; border-width: 5px; border-color:#708090;"></a>
+<div id="page">
+	<div align="right" >
+                <a href="index.html">
+                <input type="submit" style="border-radius:10px; width:100px; height:30px; color: white; background-color:#708090; position: absolute " Value="Home"/>
+                </a>
+	</div>             
+</div>	
+<div style="width:980px;left:153px;border-radius:10px; position:absolute;height:500px;background-color:#708090;margin-top:5px; ">
+    <div style="top:50px;left: 50px;height:400px;width:880px;border-radius: 10px; border:3px solid #000000;position: absolute;background-color:#E6E6FA; ">
+       	<form name="PaymentForm" action="paymentfinal.php" method="post">
+       		 <center><table style="top:60px;left: 60px;">
+			 <caption style="color: #00008B"><h2><B>Payment Information</B></h2></caption>
+			 <tr><td><input style="width:300px; height:30px;" type="text" name="name" placeholder="Name"></td></tr>
+			 <tr><td><input style="width:300px; height:30px;" type="email" name="email" placeholder="Email"></td></tr>
+			 <tr><td><input style="width:300px; height:30px;" type="text" name="card" placeholder="Credit Card Number"></td></tr>
+			 <tr><td><input style="width:300px; height:30px;" type="text" name="expdat" placeholder="mm/yy"></td></tr>
+			 <tr><td><input style="width:300px; height:30px;" type="password" name="cvv" placeholder="CVV"></td></tr>
+			 <tr><td><input style="width:300px; height:30px;" type="text" name="address" placeholder="Address"></td></tr>
+			 <tr><td><input type="submit" value="Submit" style="width: 100px;height: 40px;background-color: #B0C4DE;border-radius:7px;color: #000000" /></td></tr>
+			 </table><center>
+		</form>
+	</div>
+</div>
+</body>
+</html>
